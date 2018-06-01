@@ -27,6 +27,8 @@ public class UserController {
     @PostMapping("/users")
     public String formPost(Model model, ServerWebExchange serverWebExchange){
 
+        // reactive what of doing this.
+        // MVC would grab using params.
         MultiValueMap<String, String> map = serverWebExchange.getFormData().block();
 
         Integer limit = new Integer(map.get("limit").get(0));
