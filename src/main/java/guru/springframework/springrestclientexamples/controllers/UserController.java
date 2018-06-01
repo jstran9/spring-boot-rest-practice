@@ -1,6 +1,6 @@
 package guru.springframework.springrestclientexamples.controllers;
 
-import guru.springframework.springrestclientexamples.service.ApiService;
+import guru.springframework.springrestclientexamples.services.ApiService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
